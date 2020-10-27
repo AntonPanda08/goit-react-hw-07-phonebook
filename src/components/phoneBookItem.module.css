@@ -1,0 +1,9 @@
+.phoneBookItem {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  width: 50%;
+  border: 1px solid gray;
+  padding: 5px;
+}

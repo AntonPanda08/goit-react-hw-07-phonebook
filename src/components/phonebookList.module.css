@@ -1,0 +1,30 @@
+.enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.enterActive {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 250ms linear;
+}
+.exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.exitActive {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 250ms linear;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.phoneBookList {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+  align-items: center;
+}
